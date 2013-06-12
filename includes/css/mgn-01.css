@@ -1,0 +1,154 @@
+span.my_css_flat_button_mini {
+    display: inline-block; 
+    background:#f5f5f5; 
+    line-height:10px; 
+    margin-top:2px;
+    padding: 2px 5px 2px 5px; 
+    font-size:9px; 
+    font-weight: normal;
+    border:1px dotted #007236;
+    text-align: center;
+    cursor: pointer;
+    color: green;
+    font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;}
+
+span.my_css_flat_button_mini:hover { background: #E6EFC2; }
+span.my_css_flat_button_mini a {text-decoration: none; color: green;}
+
+.clr {clear: both;}
+input[type=text] {border:1px solid #c1c059;}
+input:focus {background-color:#ecf76f;} 
+input:active {background-color:#ecf76f;} 
+
+.err_box {border:1px solid red; background: #f5c8c8; text-align: center; margin: 5px;}
+.err_input {background: #f5c8c8;}
+.err_text {color: red; font-style:italic; font-size: 10px;}
+
+.warning_box {border:1px solid #dcdd97; background: #feffcd; text-align: center; margin: 5px;}
+.warning_input {background: #f5c8c8;}
+
+#account {margin-left:0px; font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif; font-size:11px;}
+#account ul {padding: 0px; margin-left:5px; list-style: none; overflow: hidden; }
+#account li {list-style-type: none; overflow: hidden; }
+#account li.tb_col {display:inline-block; margin-right:5px;} 
+#account li.tb_col_head {display:inline-block; background: black; color: white; margin-right:5px; }  
+
+ul.acc_list {margin-bottom:5px;}
+
+.account_detail_list {min-height: 100px; display: block; border:1px dotted black; margin-left:35px; padding-top:5px; background: whitesmoke; display: none;}
+.acc_detail_row {border-bottom: 1px dotted black; margin-right: 10px; cursor: pointer;}
+.acc_detail_row:hover {background: #fcfbab;}
+
+.add_account_container {border:1px solid green; padding:5px; margin: 5px 10px 5px 10px; background: #f8f8d0; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size: 11px; }
+.add_account_container input[type=text] {margin-bottom: 2px; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size:11px;}
+.add_account_container label {display: inline-block;}
+.add_account_container li.err_text {margin-left: 114px; font-size:9px; color:red;}
+.add_account_container p {margin:0px;}
+
+.edit_account_container {border:1px solid green; padding:5px; margin: 5px 10px 5px 10px; background: #f8f8d0; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size: 11px; }
+.edit_account_container input[type=text] {margin-bottom: 2px; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size:11px;}
+.edit_account_container label {display: inline-block;}
+.edit_account_container li.err_text {margin-left: 114px; font-size:9px; color:red;}
+.edit_account_container p {margin:0px;}
+
+.delete_account_container {border:1px solid green; padding:5px; margin: 5px 10px 5px 10px; background: #fce1e1; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size: 11px; }
+.delete_account_container input[type=text] {margin-bottom: 2px; font-family: 'lucida grande',tahoma,verdana,arial,sans-serif; font-size:10px;}
+.delete_account_container label {display: inline-block;}
+.delete_account_container li.err_text {margin-left: 114px; font-size:9px; color:red;}
+.delete_account_container p {margin:0px;}
+
+#data_list {margin-left:0px; font-size:100%; font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;}
+#data_list ul {padding: 0px; margin-left:5px; list-style: none;  margin-top:2px; cursor: pointer; }
+#data_list ul.data_row:hover {background: #fcfbab; }
+#data_list li {list-style-type: none; margin-right:5px; }
+#data_list li.tb_col {display:inline-block; margin-right:5px; } 
+#data_list li.tb_col:hover {display:inline-block; margin-right:5px; } 
+#data_list li.tb_col_head {display:inline-block; background: black; color: white; margin-right:5px;} 
+
+#data_list .tb_col_icon {width:12px;}
+#data_list .tb_col_nomor {width:20px;text-align: right;}
+#data_list .tb_col_no_transaksi {width:100px;}
+#data_list .tb_col_referensi {width:100px;}
+#data_list .tb_col_tanggal {width:70px;}
+#data_list .tb_col_unit {width:30px;}
+#data_list .tb_col_project {width:90px;}
+#data_list .tb_col_identitas {width:90px;}
+#data_list .tb_col_keterangan {width:200px;}
+
+#data_list .tb_col_nominal {width:120px; text-align: right;}
+#data_list .tb_col_debet {width:120px; text-align: right;}
+#data_list .tb_col_kredit {width:120px; text-align: right;}
+#data_list .tb_col_height32 {height:32px;}
+
+.ie9 #data_list .tb_col_nominal {font-size:9px;}
+.ie9 #data_list .tb_col_debet {font-size:9px;}
+.ie9 #data_list .tb_col_kredit {font-size:9px;}
+
+#data_header {margin-left:0px; font-size:100%; font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;}
+#data_header ul {padding: 0px; margin-left:5px; list-style: none;  margin-top:2px; cursor: pointer; }
+#data_header ul.data_row:hover {background: #fcfbab;}
+#data_header li {list-style-type: none; }
+#data_header li.tb_col {display:inline-block; margin-right:5px; } 
+#data_header li.tb_col:hover {display:inline-block; margin-right:5px; } 
+#data_header li.tb_col_head {display:inline-block; background: black; color: white; margin-right:5px;} 
+
+#entry_header h3 {font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif; border-bottom:1px dotted green; margin-right:5px; color: green; padding-bottom:0px; margin-bottom:5px;}
+
+#entry_header {margin-left:0px; font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;}
+#entry_header ul {padding: 0px; margin-left:5px; list-style: none;  margin-top:2px; }
+#entry_header li {list-style-type: none; font-size:10px; display: block; margin-bottom:1px;}
+#entry_header label {width: 120px; display: inline-block; vertical-align: top;}
+#entry_header input {font-size:10px;}
+#entry_header input[type=submit] {font-size:10px; padding:0px; margin-left:-4px;color:green;}
+#entry_header input[type=reset] {font-size:10px; padding:0px; margin-left:0px;color:green;}
+#entry_header select {font-size:11px; padding:0px; margin-left:0px;color:green;}
+
+#entry_detail {font-family: Helvetica, Arial, sans-serif; font-size: 10px; }
+#entry_detail {display: block; margin:2px 5px 2px 5px; min-height:50px; border:0px 1px 1px 1px dotted black; background: whitesmoke; }
+#entry_detail ul {padding: 0px; list-style: none; width:100%; margin-top:2px; margin-bottom: 2px;}
+#entry_detail ul.tb_head {background: black; height:22px; vertical-align: central;}
+#entry_detail li {list-style-type: none; font-size:11px; display: inline-block; margin-bottom:1px; padding: 0px;}
+#entry_detail li.tb_col {display:inline-block; margin-right:2px; vertical-align: top; min-height:14px; } 
+#entry_detail li.tb_col_head {display:inline-block; background: black; color: white; margin-right:2px; }  
+#entry_detail input {font-size:9px; border: 1px transparent; background: transparent; color: black; padding: 0px;}
+#entry_detail input:focus {background: white; color: black; }
+#entry_detail textarea {font-family: Helvetica, Arial, sans-serif; font-size:100%; border: 1px transparent; background: transparent; color: black; padding: 0px; overflow: auto;}
+#entry_detail textarea:focus {background: white; color: black; overflow: auto; }
+#entry_detail select {font-size:9px; border: 1px transparent; background: transparent; color: gray; height:14px; padding: 0px;}
+#entry_detail select:focus {background: white; color: black; }
+#entry_detail span {font-size:9px; }
+#entry_detail span.field_info {color: red; padding: 0px; margin-left:2px; overflow: hidden; display: inline-block; }
+
+#entry_detail .tb_col_del_icon {width:12px;}
+#entry_detail .tb_col_nomor {width:20px;text-align: right;}
+#entry_detail .tb_col_referensi {width:100px;}
+#entry_detail .tb_col_account {width:90px;}
+#entry_detail .tb_col_unit {width:60px;}
+#entry_detail .tb_col_project {width:90px;}
+#entry_detail .tb_col_identitas {width:90px;}
+#entry_detail .tb_col_keterangan {width:200px; vertical-align: top; overflow: auto;}
+#entry_detail .tb_col_nominal {width:100px; text-align: right;}
+#entry_detail .tb_col_debet {width:100px; text-align: right;}
+#entry_detail .tb_col_kredit {width:100px; text-align: right;}
+#entry_detail .tb_col_height32 {height:32px;}
+
+#entry_detail .styled-select select {
+   background: black;
+   padding: 5px;
+   font-size: 10px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 14px;
+   -webkit-appearance: none;
+   }
+   
+#entry_detail .styled-select {
+   height: 14px;
+   overflow: hidden;
+   background: url(new_arrow.png) no-repeat right #ddd;
+   border: 1px solid #ccc;
+   }
+   
+.jh_container {display: none;}
+.rvh_container {display: none;}
